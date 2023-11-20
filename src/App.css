@@ -1,5 +1,19 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  height: 200vh;
 }
+
+
+button, a {
+  background: none;
+  border: none;
+}
+
+button:hover, a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+button:hover svg, a:hover svg {
+  stroke: red;
+}
+
