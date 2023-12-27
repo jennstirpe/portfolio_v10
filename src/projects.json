@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Habit Tracker",
+        "img": "./assets/project-imgs/habit-preview.png",
+        "mainDesc": "A tracker that allows users to set habits that they'd like to track. Each day, a new record is created and the user can mark habits complete for that day as they complete them. The user can view and compare previous days which can provide motivation to do the things they want to do everyday, creating lasting habits.",
+        "detailsDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, natus obcaecati. Est ullam molestias doloribus earum eum, tempore ea nihil at corrupti totam? Molestiae porro voluptatum rerum possimus quasi fuga. Quam perspiciatis voluptate dicta commodi modi. Perferendis a impedit enim est quisquam quos ut eligendi.",
+        "tech": ["React"],
+        "link": "https://jennstirpe.github.io/habit-tracker-v2/",
+        "github": "https://github.com/jennstirpe/habit-tracker-v2"
+    },
+    {
+        "id": 2,
+        "name": "To-do List",
+        "img": "./assets/project-imgs/todo-preview.png",
+        "mainDesc": "A traditional todo list app, a user is able to to add and delete tasks, as well as mark tasks complete. Features different filters to view only active or completed tasks as well as light and dark modes. Currently saves to a user's local storage.",
+        "detailsDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, natus obcaecati. Est ullam molestias doloribus earum eum, tempore ea nihil at corrupti totam? Molestiae porro voluptatum rerum possimus quasi fuga.",
+        "tech": ["React"],
+        "link": "https://jennstirpe.github.io/todo-app/",
+        "github": "https://github.com/jennstirpe/todo-app"
+    },
+    {
+        "id": 3,
+        "name": "IP Address Tracker",
+        "img": "./assets/project-imgs/ipAddress-preview.png",
+        "mainDesc": "Using the IP Geolocation API by IPify and LeafletJS, a user can get the location, timezone and service provider of any IP Address they search for and see it displayed on a map.",
+        "detailsDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, natus obcaecati. Est ullam molestias doloribus earum eum, tempore ea nihil at corrupti totam? Molestiae porro voluptatum rerum possimus quasi fuga. Quam perspiciatis voluptate dicta commodi modi. Perferendis a impedit enim est quisquam quos ut eligendi, possimus veritatis aut eos cupiditate voluptatum architecto fuga adipisci! Dignissimos temporibus minima non illum voluptatem.",
+        "tech": ["HTML", "Sass", "JavaScript"],
+        "link": "https://jennstirpe.github.io/ip-address-tracker-js/",
+        "github": "https://github.com/jennstirpe/ip-address-tracker-js"
+    },
+    {
+        "id": 5,
+        "name": "Lights Out",
+        "img": "./assets/project-imgs/lightsout-preview.png",
+        "mainDesc": "A logic game released in the mid-90's, the player's goal is to turn off all the lights in as few moves as possible. Clicking any light will toggle it and its four adjacent lights on/off.",
+        "detailsDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, natus obcaecati. Est ullam molestias doloribus earum eum, tempore ea nihil at corrupti totam? Molestiae porro voluptatum rerum possimus quasi fuga.Quam perspiciatis voluptate dicta commodi modi. Perferendis a impedit enim est quisquam quos ut eligendi, possimus veritatis aut eos cupiditate voluptatum architecto fuga adipisci! Dignissimos temporibus minima non illum voluptatem. Quam perspiciatis voluptate dicta commodi modi. Perferendis a impedit enim est quisquam quos ut eligendi, possimus veritatis aut eos cupiditate voluptatum architecto fuga adipisci! Dignissimos temporibus minima non illum voluptatem.",
+        "tech": ["HTML", "Sass", "JavaScript"],
+        "link": "https://jennstirpe.github.io/lights-out/",
+        "github": "https://github.com/jennstirpe/lights-out"
+    }
+]
