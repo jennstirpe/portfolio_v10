@@ -1,6 +1,7 @@
-#root {
-  height: 200vh;
-}
+
+
+/* #root {
+} */
 
 
 button, a {
@@ -10,10 +11,10 @@ button, a {
 
 button:hover, a:hover {
   cursor: pointer;
-  color: red;
+  color: var(--color-red);
 }
 
 button:hover svg, a:hover svg {
-  stroke: red;
+  color: var(--color-red);
 }
 

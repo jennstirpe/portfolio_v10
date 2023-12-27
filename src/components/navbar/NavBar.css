@@ -1,7 +1,7 @@
 
 .navbar {
     width: 100vw;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 1rem 2rem;
 }
@@ -23,7 +23,7 @@
     }
     
     .navbar__menu {
-        height: 50vh;
+        height: 32vh;
         min-height: 15rem;
         flex-direction: column;
     }
