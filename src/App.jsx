@@ -1,14 +1,14 @@
 import './App.css'
-import { NavBar, Header, Projects } from './components/index'
+import { Header, Projects, Contact } from './components/index'
 
 function App() {
 
   return (
     <>
-      <NavBar />
+      <Header />
       <main>
-        <Header />
         <Projects />
+        <Contact />
       </main>
     </>
   )

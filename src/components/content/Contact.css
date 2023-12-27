@@ -1,0 +1,52 @@
+.contact {
+    height: 100vh;
+    position: relative;
+}
+
+.contact-form {
+    height: 40rem;
+    width: 90%;
+    max-width: 35rem;
+    padding: 3rem 1rem;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1rem lightgray;
+}
+
+input, textarea {
+    padding: 1.25rem;
+    margin: .5rem;
+    border-radius: .25rem;
+    outline: none;
+    border: none;
+    border: 1px solid var(--color-light);
+}
+
+input:hover, textarea:hover {
+    border: 1px solid black;
+}
+
+textarea {
+    height: 14rem;
+}
+
+#contact__submit {
+    /* background: ${({theme}) => theme.colors.textLight}25; */
+}
+
+#contact__submit:hover {
+    /* background: ${({theme}) => theme.colors.textLight}50; */
+}
+
+
+@media only screen and (min-width: 768px) {
+    .contact {
+        width: 50%;
+    }
+}
