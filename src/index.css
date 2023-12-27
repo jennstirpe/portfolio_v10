@@ -22,6 +22,10 @@
   padding: 0;
 }
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
 body {
   font-family: 'Cantarell', sans-serif;
 }
@@ -51,4 +55,16 @@ input:hover, textarea:hover {
 main {
   padding: 0;
   margin: 0;
+}
+
+.subsection {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .subsection {
+    flex-direction: row;
+  }
 }

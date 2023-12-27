@@ -1,5 +1,5 @@
 import './App.css'
-import { Header, Projects, Contact } from './components/index'
+import { Header, Projects, Contact, About } from './components/index'
 
 function App() {
 
@@ -8,7 +8,10 @@ function App() {
       <Header />
       <main>
         <Projects />
-        <Contact />
+        <div className="subsection">
+          <Contact />
+          <About />
+        </div>
       </main>
     </>
   )

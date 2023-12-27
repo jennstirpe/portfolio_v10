@@ -1,13 +1,15 @@
 .contact {
     height: 100vh;
+    width: 100vw;
     position: relative;
+    scroll-snap-align: start;
 }
 
-.contact-form {
+.contact__form {
     height: 40rem;
     width: 90%;
     max-width: 35rem;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
     border-radius: .25rem;
     display: flex;
     flex-direction: column;
@@ -19,34 +21,35 @@
     box-shadow: 0 0 1rem lightgray;
 }
 
-input, textarea {
+.contact__input, .contact__textarea {
     padding: 1.25rem;
-    margin: .5rem;
+    margin: .5rem 0;
     border-radius: .25rem;
     outline: none;
     border: none;
     border: 1px solid var(--color-light);
 }
 
-input:hover, textarea:hover {
+.contact__input:hover, .contact__textarea:hover {
     border: 1px solid black;
 }
 
-textarea {
+.contact__textarea {
     height: 14rem;
 }
 
-#contact__submit {
-    /* background: ${({theme}) => theme.colors.textLight}25; */
+.contact__submit {
+    height: 3.5rem;
+    border: 1px solid #00000000;
 }
 
-#contact__submit:hover {
-    /* background: ${({theme}) => theme.colors.textLight}50; */
+.contact__submit:hover {
+    background: var(--color-light);
+    border: 1px solid var(--color-dark);
 }
-
 
 @media only screen and (min-width: 768px) {
     .contact {
-        width: 50%;
+        width: 50vw;
     }
 }
