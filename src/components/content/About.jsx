@@ -2,7 +2,7 @@ import './About.css'
 
 export default function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
         <div className="about__card">
             <h2>About me</h2>
             <p>Lorem ipsum dolor sit amet, <span className="about__accent">consectetur adipisicing elit</span>. Quasi cumque ad, accusantium accusamus maiores quos laudantium ipsa tempore magni officiis quis culpa deserunt eligendi quaerat nostrum at aut laboriosam eius?

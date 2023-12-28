@@ -2,7 +2,7 @@ import './Contact.css'
 
 export default function Contact() {
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
 
         <form className="contact__form" action="https://formsubmit.io/send/d7e574ec-8e96-4097-896a-be431d3255fb" method="POST">
             <h2>Contact me</h2>
