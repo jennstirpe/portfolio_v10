@@ -16,10 +16,10 @@ export default function Projects() {
             {
               projects.map(project => {
                 return (
-                <li className="projects__list-item" key={project.id} style={project.id == activeProject ? {"border": "1px solid black"} : null}>
-                  <button onClick={() => setActiveProject(project.id)} className="projects__list-item-btn">
-                    {project.name}
-                  </button>
+                  <li className={project.id == activeProject ? "projects__list-item activeProject" : "projects__list-item"} key={project.id}>
+                    <button onClick={() => setActiveProject(project.id)} className="projects__list-item-btn">
+                      {project.name}
+                    </button>
                   </li>)
               })
             }

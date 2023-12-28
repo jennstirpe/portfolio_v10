@@ -19,6 +19,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 1rem lightgray;
+    border: 1px solid var(--color-green);
 }
 
 .contact__input, .contact__textarea {
@@ -30,8 +31,8 @@
     border: 1px solid var(--color-light);
 }
 
-.contact__input:hover, .contact__textarea:hover {
-    border: 1px solid black;
+.contact__input:hover, .contact__textarea:hover, .contact__input:focus, .contact__textarea:focus {
+    border: 1px solid var(--color-green);
 }
 
 .contact__textarea {
@@ -40,12 +41,16 @@
 
 .contact__submit {
     height: 3.5rem;
+    background: #bcc6b3;
     border: 1px solid #00000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .contact__submit:hover {
-    background: var(--color-light);
-    border: 1px solid var(--color-dark);
+    border: 1px solid var(--color-green);
+    background: var(--color-green);
+    color: var(--color-light);
 }
 
 @media only screen and (min-width: 768px) {

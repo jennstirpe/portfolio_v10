@@ -7,6 +7,8 @@
   --color-blue: #78ccdd;
   --color-purple: #8f92e0;
 
+  --transition: all 200ms linear;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -50,6 +52,7 @@ input::placeholder, textarea::placeholder {
 
 input:hover, textarea:hover {
   cursor: pointer;
+  transition: var(--transition);
 }
 
 main {

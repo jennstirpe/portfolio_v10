@@ -7,9 +7,11 @@ button, a {
 button:hover, a:hover {
   cursor: pointer;
   color: var(--color-red);
+  transition: var(--transition);
 }
 
 button:hover svg, a:hover svg {
   stroke: var(--color-red);
+  transition: var(--transition);
 }
 

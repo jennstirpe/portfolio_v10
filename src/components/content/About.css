@@ -6,6 +6,10 @@
     scroll-snap-align: start;
 }
 
+.about__accent {
+    color: var(--color-purple);
+}
+
 .about__card {
     height: 40rem;
     width: 90%;
@@ -20,6 +24,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 1rem lightgray;
+    border: 1px solid var(--color-purple);
 }
 
 p {

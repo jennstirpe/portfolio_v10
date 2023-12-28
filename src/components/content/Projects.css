@@ -29,6 +29,21 @@
     font-size: 1.1rem;
 }
 
+.projects__list-item-btn:hover {
+    color: var(--color-blue);
+}
+
+.activeProject {
+    border: 1px solid #f2f2f2;
+    border-radius: .25rem;
+}
+
+.activeProject .projects__list-item-btn {
+    color: var(--color-blue);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 /* PROJECT CARD STYLES */
 
 .project__card {
@@ -65,7 +80,7 @@
 /* DESCRIPTIONS */
 
 .project__desc-main, .project__details {
-    border: 1px solid var(--color-med);
+    border: 1px solid var(--color-blue);
     margin: 1rem 0;
     padding: 1rem;
     border-radius: .25rem;
@@ -76,17 +91,26 @@
 }
 
 .project__name {
-    align-self: center;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
 }
 
 .project__tech {
     font-size: .85rem;
+    color: var(--color-blue);
 }
 
 .project__link {
     margin: 0 1rem;
 }
 
+.project__link svg {
+    stroke: var(--color-blue);
+}
+
+.project__link:hover svg {
+    stroke: var(--color-dark);
+}
 
 @media only screen and (min-width: 768px) {
 
